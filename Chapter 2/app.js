@@ -29,7 +29,7 @@
 
 
 // question : 06
-// let email = "hiba@example.com";
+// let email = "ranihiba@example.com";
 // alert("My email address is " + email);
 
 
