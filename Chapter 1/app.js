@@ -21,8 +21,3 @@
 
 // question : 05
 // alert("Hello... I can run JS through my browser's console")
-
-
-
-
-
