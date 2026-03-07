@@ -41,18 +41,92 @@
 // question : 02
 
 // a
-let num
+// let num
 
 // b
 
-document.write(`Value after variable declaration is`)
+// document.write(`Value after variable declaration is`)
+// document.write(`<br />`)
 
 // c
-num = 7
+// num = 5
 
 // d
-document.write(`${num}`)
-
+// document.write(`Intial value is ${num}`)
+// document.write(`<br />`)
 // e
+// num++
 
-document.write(`${++num}`)
+// f
+// document.write(`Value after increment is ${num}`)
+// document.write(`<br />`)
+
+// g
+// num = num + 7
+
+// h
+// document.write(`Value after addition is ${num}`)
+// document.write(`<br />`)
+
+// i
+// num--
+
+// j
+// document.write(`Value after decrement is ${num}`)
+// document.write(`<br />`)
+
+// k
+// num = num / 3
+
+// l
+// document.write(`Value after divide by 3 is ${num}`)
+// document.write(`<br />`)
+
+// m
+// document.write(`The output is 0 `)
+
+
+
+// question : 04
+// let ticketPrice = 600
+// let qtyTicket = 5
+
+// let multiTicket = ticketPrice * qtyTicket
+
+// document.write(`Ticket cost to buy ${qtyTicket} tickets to a movie is ${multiTicket}PKR`)
+
+
+
+
+// question : 05
+// let tableName = 4
+// let count = 1
+
+// document.write(`${tableName} x ${count} = ${tableName}`)
+// document.write(`<br />`)
+// count++
+// document.write(`${tableName} x ${count} = ${tableName * count}`)
+// document.write(`<br />`)
+// count++
+// document.write(`${tableName} x ${count} = ${tableName * count}`)
+// document.write(`<br />`)
+// count++
+// document.write(`${tableName} x ${count} = ${tableName * count}`)
+// document.write(`<br />`)
+// count++
+// document.write(`${tableName} x ${count} = ${tableName * count}`)
+// document.write(`<br />`)
+// count++
+// document.write(`${tableName} x ${count} = ${tableName * count}`)
+// document.write(`<br />`)
+// count++
+// document.write(`${tableName} x ${count} = ${tableName * count}`)
+// document.write(`<br />`)
+// count++
+// document.write(`${tableName} x ${count} = ${tableName * count}`)
+// document.write(`<br />`)
+// count++
+// document.write(`${tableName} x ${count} = ${tableName * count}`)
+// document.write(`<br />`)
+// count++
+// document.write(`${tableName} x ${count} = ${tableName * count}`)
