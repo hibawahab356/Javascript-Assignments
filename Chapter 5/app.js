@@ -1,132 +1,156 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Chapter 9 to 11
 // question : 01
-// let num1 = +prompt("Enter your First Number")
-// let num2 = +prompt("Enter your Second Number")
+// let cityName = prompt("Whats your city name?") 
 
-// let sumTotal = num1 + num2
+// if (cityName==="Karachi"){
+//     alert("Welcome to the city of lights")
+// }
 
-// document.write(`Sum of ${num1} and ${num2} is ${sumTotal}`)
-
-
-
-// question : 02
-
-// a
-
-// let num3 = prompt("Enter your First Number")
-// let num4 = prompt("Enter your Second Number")
-
-// let subTotal = num3 - num4
-
-// document.write(`Subtraction of ${num3} and ${num4} is ${subTotal}`)
+// else{
+//     alert("Welcome")
+// }
 
 
-// b
+// question :02
+// let gender = prompt("May I know your gender?")
 
-// let num5 = prompt("Enter your First Number")
-// let num6 = prompt("Enter your Second Number")
-// let multiTotal = num5 * num6 
+// if (gender==="Male"){
+//     alert("Good Morning Sir")
+// }
 
-// document.write(`Multiplication of ${num5} and ${num6} is ${multiTotal}`)
-
-// c
-
-// let num7 = prompt("Enter your First Number")
-// let num8 = prompt("Enter your Second Number")
-// let divideTotal = num7 / num8
-
-// document.write(`Dividation of ${num7} and ${num8} is ${divideTotal}`)
+// else{
+//     alert("Good Morning Ma’am")
+// }
 
 
 
-// question : 02
+//question : 03
+// let colorSignal = prompt("What is the color of the traffic signal?")
 
-// a
-// let num
+// document.write(`Red <br/> Must stop`)
+// document.write(`<br/>`)
 
-// b
+// document.write(`Yellow <br/> Ready to move`)
+// document.write(`<br/>`)
 
-// document.write(`Value after variable declaration is`)
-// document.write(`<br />`)
-
-// c
-// num = 5
-
-// d
-// document.write(`Intial value is ${num}`)
-// document.write(`<br />`)
-// e
-// num++
-
-// f
-// document.write(`Value after increment is ${num}`)
-// document.write(`<br />`)
-
-// g
-// num = num + 7
-
-// h
-// document.write(`Value after addition is ${num}`)
-// document.write(`<br />`)
-
-// i
-// num--
-
-// j
-// document.write(`Value after decrement is ${num}`)
-// document.write(`<br />`)
-
-// k
-// num = num / 3
-
-// l
-// document.write(`Value after divide by 3 is ${num}`)
-// document.write(`<br />`)
-
-// m
-// document.write(`The output is 0 `)
-
+// document.write(`Green <br/> Move now`)
+// document.write(`<br/>`)
 
 
 // question : 04
-// let ticketPrice = 600
-// let qtyTicket = 5
 
-// let multiTicket = ticketPrice * qtyTicket
+// let feul = prompt("How much fuel is left in your car (in liters)?")
 
-// document.write(`Ticket cost to buy ${qtyTicket} tickets to a movie is ${multiTicket}PKR`)
+// if (feul<=0.25){
+//     alert("Please refill the fuel in your car")
+// }
 
-
+// else{
+//     alert("Fuel level is sufficient. No need to refill")
+// }
 
 
 // question : 05
-// let tableName = 4
-// let count = 1
 
-// document.write(`${tableName} x ${count} = ${tableName}`)
-// document.write(`<br />`)
-// count++
-// document.write(`${tableName} x ${count} = ${tableName * count}`)
-// document.write(`<br />`)
-// count++
-// document.write(`${tableName} x ${count} = ${tableName * count}`)
-// document.write(`<br />`)
-// count++
-// document.write(`${tableName} x ${count} = ${tableName * count}`)
-// document.write(`<br />`)
-// count++
-// document.write(`${tableName} x ${count} = ${tableName * count}`)
-// document.write(`<br />`)
-// count++
-// document.write(`${tableName} x ${count} = ${tableName * count}`)
-// document.write(`<br />`)
-// count++
-// document.write(`${tableName} x ${count} = ${tableName * count}`)
-// document.write(`<br />`)
-// count++
-// document.write(`${tableName} x ${count} = ${tableName * count}`)
-// document.write(`<br />`)
-// count++
-// document.write(`${tableName} x ${count} = ${tableName * count}`)
-// document.write(`<br />`)
-// count++
-// document.write(`${tableName} x ${count} = ${tableName * count}`)
+// a
+
+// let a = 4 
+
+// if (++a === 5){ 
+// alert("given condition for variable a is true"); 
+// }
+
+// b
+
+// let b = 82; 
+// if (b++ === 83){ 
+//     alert("given condition for variable b is true")
+
+// } 
+
+
+// else{
+//    alert("given condition for variable b is false")
+// }
+
+// c
+
+// let  c = 12; 
+
+// if (c++ === 13){ 
+// alert("condition 1 is true"); 
+// } 
+
+// else{
+//    alert("given condition 1 is false")
+// }
+
+
+// if (c === 13){ 
+// alert("condition 2 is true"); 
+// } 
+
+// else{
+//    alert("given condition 2 is false")
+// }
+
+ 
+// if (++c < 14){ 
+// alert("condition 3 is true"); 
+// } 
+
+// else{
+//    alert("given condition 3 is false")
+// }
+
+// if(c === 14){ 
+// alert("condition 4 is true"); 
+// } 
+
+// else{
+//    alert("given condition 4 is false")
+// }
+
+
+// d 
+
+// let materialCost = 20000; 
+// let laborCost = 2000; 
+// let totalCost = materialCost + laborCost; 
+
+// if (totalCost === laborCost + materialCost){ 
+// alert("The cost equals"); 
+// } 
+
+// else{
+//     alert("The cost is not equal")
+// }
+
+
+// e
+
+// if("car" < "cat"){ 
+// alert("car is smaller than cat"); 
+// } 
+
+// else{
+//     alert("Car is larger than cat")
+// }
